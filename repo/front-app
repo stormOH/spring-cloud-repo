@@ -1,5 +1,3 @@
-db.url=139.199.160.161
-
 switch.sms=true
 switch.promotion=false
 switch.points=true
@@ -29,3 +27,8 @@ spring.datasource.filters=stat
 
 spring.datasource.mapperLocations=classpath:mapper/*.xml
 spring.datasource.typeAliasPackage=com.simplemall.micro.serv.order.bean
+
+spring.rabbitmq.host=139.199.160.161
+spring.rabbitmq.port=5672
+spring.rabbitmq.username=guest
+spring.rabbitmq.password=guest
