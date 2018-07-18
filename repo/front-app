@@ -28,6 +28,8 @@ spring.datasource.filters=stat
 spring.datasource.mapperLocations=classpath:mapper/*.xml
 spring.datasource.typeAliasPackage=com.simplemall.micro.serv.order.bean
 
+jasypt.encryptor.password=EbfYkitulv73I2p0mXI50JMXoaxZTKJ7
+
 spring.rabbitmq.host=139.199.160.161
 spring.rabbitmq.port=5672
 spring.rabbitmq.username=storm
